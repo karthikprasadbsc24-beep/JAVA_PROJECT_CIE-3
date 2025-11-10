@@ -21,7 +21,7 @@ public class Player {
         int choice = input.nextInt();
 
         switch (choice) {
-            case 1:
+             case 1:
                 character = new Samurai();
                 break;
             case 2:
@@ -48,3 +48,4 @@ public class Player {
                            " (Block +" + inventory.getArmor().getBlock() + ")");
     }
 }
+
