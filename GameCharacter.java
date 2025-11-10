@@ -1,3 +1,4 @@
+// Abstract base class for all game characters
 public abstract class GameCharacter {
     private String name;
     private int damage;
@@ -16,4 +17,11 @@ public abstract class GameCharacter {
     public int getDamage() { return damage; }
     public int getHealth() { return health; }
     public int getMoney() { return money; }
+
+    public void printStats() {
+        System.out.println("Character: " + name);
+        System.out.println("Damage: " + damage);
+        System.out.println("Health: " + health);
+        System.out.println("Money: " + money);
+    }
 }
