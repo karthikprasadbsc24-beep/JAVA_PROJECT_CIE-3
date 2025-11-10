@@ -16,3 +16,4 @@ public class AdventureGame {
         input.close();
     }
 }
+
